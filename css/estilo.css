@@ -1,0 +1,133 @@
+body {
+                font-family: Arial;
+                background-color: MidnightBlue;
+
+        }
+        .container{ 
+                     width: 80%;
+                     margin-right: auto;
+                     margin-left: auto;
+                     margin-top: 30%;
+                     position: relative;
+                 }
+
+title {     text-align: center;
+            font-family: Arial;
+               color: #48D1CC;
+               font-weight: bolder;
+            font-size: 20px;
+
+           }
+
+
+           h1{font-size: 2em;
+           }
+
+h2{font-size: 1.5em;}
+
+
+.titulos {           text-align: center;
+               font-family: Arial;
+               color: #48D1CC;
+               font-weight: bolder;
+               line-height: 2;
+
+            }
+
+ p { text-align: justify; 
+     color: #fff;
+     margin-top: 2%;
+     magin-bottom: 2%;
+     font-size: 1.2em;
+}
+
+
+ul li {text-align: justify;
+        color: #fff;
+        line-height: 1.5;
+        font-size: 1.2em;
+}
+
+
+ol li {text-align: justify;
+        color: #fff;
+       line-height: 1.5;]
+       font-size: 1.2em;
+}
+
+table{
+        color: #fff;
+        width: 80%;
+        border-collapse: collapse;
+        font-size: 1.2em;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+.imgtexto{
+        border: 5px dashed #fff;
+        width: 50%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+}
+.imglogo{
+        width: 150%;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+figure{text-align: center;
+}
+
+td,th{
+        border: 5px dashed #fff;
+        padding: 3%;
+}
+
+header,footer{background-color: rgba(0,0,255);
+              padding: 3%; 
+              position: relative;
+              display: flex; 
+              flex-direction: column;
+              align-items: center;   
+              font-size: 1.5em; 
+              line-height: 1.5;                            
+}
+.fixo{
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 1030;
+}
+
+@media screen and (min-width: 768px) {
+        .container{
+                margin-top: 20%;
+        }
+        header{background-color: rgba(0,0,255)
+                flex-direction: row;}
+                

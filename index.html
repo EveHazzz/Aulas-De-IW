@@ -3,62 +3,63 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="widht=device-widht,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
 	<title>primeiro site html</title>
-    <style type="text/css">
-        body {
-                font-family: Arial;
-        }
-        title {
-            font-family: Arial;
-               color: darkred;
-               font-weight: bolder;
-           }
-        h1 { 
-               font-family: Arial;
-               color: darkred;
-               font-weight: bolder;
-            }
-        h2{
-              font-family: Arial;
-              color: darkred;
-              font-weight: bolder;
-        }
-        p { text-align: justify; }
-
-        ul li {text-align: justify;}
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
-<body style="background-color: #D3D3D3;">
-	<h1>Introdução ao HTML
-</h1>
-      <p>HTML é a linguagem de marcação padrão para a criação de páginas da web.
-
-     </p>
-       <p>Saiba Mais Sobre o Assunto por <a href="https://www.w3schools.com/html/default.asp">AQUI</a></p>
-          <h2>O que é HTML?</h2>
-              <ul>
-  	               <li>HTML significa Hyper Text Markup Language</li>
-  	               <li>HTML é a linguagem de marcação padrão para a criação de páginas da web</li>
-  	               <li>HTML descreve a estrutura de uma página da web</li>
-  	               <li>HTML consiste em uma série de elementos</li>
-  	               <li>Os elementos HTML informam ao navegador como exibir o conteúdo</li>
-  	               <li>Os elementos HTML identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</li>
-             </ul>
-          <h2> Estrutura Básica HTML </h2>
-               <img src="img/inicio.jpg" alt="Código Básico Do HTML" width="500" height="333">          
-    <h1>Introdução ao CSS</h1>
-       <p>CSS é a linguagem que usamos para definir o estilo de uma página da web.</p>
-         <p>Saiba Mais Sobre o Assunto por <a href="https://www.w3schools.com/html/html_css.asp">AQUI</a></p>
-             <ul>
-             	 <li>CSS significa Cascading Style Sheets</li>
-             	 <li>CSS descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outra mídia</li>
-             	 <li>CSS economiza muito trabalho. Ele pode controlar o layout de várias páginas da web de uma só vez</li>
-             	 <li>Folhas de estilo externas são armazenadas em arquivos CSS</li>
-             </ul>
-    <h1>Tipos de CSS</h1>
-            <ul>
-                 <li>Inline - usando o style atributo dentro dos elementos HTML</li>
-                 <li>Interno - usando um style elemento na head seção </li>
-                 <li>Externo - usando um link elemento para vincular a um arquivo CSS externo</li>
-             </ul>
-             
+<body>
+    <header>
+         <h1><img class="imglogo" src="img/primeirologo.png"></h1>
+        <nav>
+           <ul>
+               <li><a href="#">Ínicio</a></li>
+               <li><a href="#HTML">HTML</a></li>
+               <li><a href="#CSS">CSS</a></li>
+               <li><a href="javascript.html">JAVASCRIPT</a></li>
+               <li><a href="https://www.instagram.com/evehazzz/">CONTATO</a></li>
+           </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 class="titulos">Introdução ao HTML</h1>
+        <div id="HTML">
+            </body>
+              <p>HTML é a linguagem de marcação padrão para a criação de páginas da web.
+             </p>
+               <p>Saiba Mais Sobre o Assunto por <a href="https://www.w3schools.com/html/default.asp">AQUI</a></p>
+                  <h2 class="titulos">O que é HTML?</h2>
+                      <ul>
+                           <li><p>HTML significa Hyper Text Markup Language</p></li>
+                           <li><p>HTML é a linguagem de marcação padrão para a criação de páginas da web</p></li>
+                           <li><p>HTML descreve a estrutura de uma página da web</p></li>
+                           <li><p>HTML consiste em uma série de elementos</p></li>
+                           <li><p>Os elementos HTML informam ao navegador como exibir o conteúdo</p></li>
+                           <li><p>Os elementos HTML identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</p></li>
+                     </ul>
+                  <h2 class="titulos"> Estrutura Básica HTML </h2>
+                       <img class="imgtexto" src="img/inicio.jpg" alt="Código Básico Do HTML" width="500" height="333">  
+        </div>   
+        <div id="CSS">    
+            <h1 class="titulos">Introdução ao CSS</h1>
+               <p>CSS é a linguagem que usamos para definir o estilo de uma página da web.</p>
+                 <p>Saiba Mais Sobre o Assunto por <a href="https://www.w3schools.com/html/html_css.asp">AQUI</a></p>
+                     <ul>
+                         <li>CSS significa Cascading Style Sheets</li>
+                         <li>CSS descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outra mídia</li>
+                         <li>CSS economiza muito trabalho. Ele pode controlar o layout de várias páginas da web de uma só vez</li>
+                         <li>Folhas de estilo externas são armazenadas em arquivos CSS</li>
+                     </ul>
+            <h1 class="titulos">Tipos de CSS</h1>
+                    <ul>
+                         <li>Inline - usando o style atributo dentro dos elementos HTML</li>
+                         <li>Interno - usando um style elemento na head seção </li>
+                         <li>Externo - usando um link elemento para vincular a um arquivo CSS externo</li>
+                     </ul>
+            <h2 class="titulos">Saiba um pouco sobre javascript</h2>  
+            <p class="titulos"><a href="javascript.html">Clique Aqui!</a></p> 
+            <p class="titulos"><a href="posicionamento.html">Clique Aqui para ver os posicisionamentos!</a></p>  
+        </div>
+    </div>
+       <footer>
+           <p class="titulos"></p>
+       </footer>
